@@ -1,5 +1,5 @@
-# recurringtasks
-A simple javascript manager for recurring parallel taks.
+# Javascript Recurring Parallel Tasks
+A simple javascript manager to execute repetitive parallel tasks.
 
 ```javascript
 let RecurringTask = require('./index.js');
