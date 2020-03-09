@@ -1,0 +1,26 @@
+{
+  "name": "recurringtasks",
+  "version": "1.0.0",
+  "description": "Javascript manager to handle recurring parallel tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/souzabrs/recurringtasks.git"
+  },
+  "keywords": [
+    "javascript",
+    "task",
+    "parallel",
+    "repetitive",
+    "cancelable"
+  ],
+  "author": "Bruno Ruaro de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/souzabrs/recurringtasks/issues"
+  },
+  "homepage": "https://github.com/souzabrs/recurringtasks#readme"
+}
