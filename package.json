@@ -1,6 +1,6 @@
 {
   "name": "recurringtasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript manager to handle recurring parallel tasks",
   "main": "index.js",
   "scripts": {
