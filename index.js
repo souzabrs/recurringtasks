@@ -77,14 +77,14 @@ function RecurringTask(name, functionToExecute, opt = {}) {
   });
 }
 
-RecurringTask.prototype.stopAllTasks = () => {
+RecurringTask.stopAllTasks = () => {
   for (let t in tasks) {
     t = tasks[t];
     t.goOn(false);
   }
 };
 
-RecurringTask.prototype.startAllTasks = () => {
+RecurringTask.startAllTasks = () => {
   for (let t in tasks) {
     t = tasks[t];
     t.goOn(true);
@@ -92,7 +92,7 @@ RecurringTask.prototype.startAllTasks = () => {
   }
 };
 
-RecurringTask.prototype.statusAll = () => {
+RecurringTask.statusAll = () => {
   let report = [];
   for (let t in tasks) {
     t = tasks[t];
